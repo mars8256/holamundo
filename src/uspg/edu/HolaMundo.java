@@ -16,8 +16,13 @@ public class HolaMundo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        String nombre;
+        int edad;
+        nombre = "Marcos Orozco";
+        edad = 30;
         System.out.println("Hola Mundo");
         System.out.println("Otro mensaje en mi repositorio remoto");
+        System.out.println("Hola " + nombre+ " edad:" + edad);
     }
     
 }
